@@ -1,0 +1,28 @@
+.loading-tree {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: #151522;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s;
+}
+
+.loading-tree svg {
+  width: 90%;
+  height: 90%;
+  visibility: hidden;
+}
+
+.loading-tree .sparkle{
+  mix-blend-mode:luminosity
+}
+
